@@ -118,7 +118,7 @@ const Index = () => {
               Drinks & pizza consultancy.
             </h3>
             <p className="text-muted-foreground mb-4">
-              Need a wine list for your restaurant? Unhappy with your current cocktail menu? Looking to optimize your bottle selection to maximize ROI and minimize waste? I can help with that too — reach out and let's see what I can do for you.
+              Your pizza dough is not delivering a puff and a crunch you'd expect it to? Need a wine list for your restaurant? Unhappy with your current cocktail menu? Looking to optimize your bottle selection to maximize ROI and minimize waste? I can help with that too — reach out and let's see what I can do for you.
             </p>
             <p className="font-bold text-muted-foreground">Wine education coming soon.</p>
           </div>
