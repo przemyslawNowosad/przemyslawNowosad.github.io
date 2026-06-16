@@ -1,1 +1,1 @@
-AI aided developed in just a couple of hours.
+AI powered development in just a couple of hours.

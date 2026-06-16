@@ -1,4 +1,5 @@
-import { Linkedin, Mail, Code2, Cloud, Terminal, Pizza, Wine, Star, GitBranch } from "lucide-react";
+import { Linkedin, Mail, Code2, Cloud, Terminal, Pizza, Wine, Star, GitBranch, Award } from "lucide-react";
+import wset3Badge from "../assets/WSET3badge2.png.asset.json";
 
 const Index = () => {
   return (
@@ -112,15 +113,39 @@ const Index = () => {
         <div className="border-t-4 border-muted my-16" />
 
         {/* Consultancy Section */}
-        <section className="mb-12">
-          <div className="border border-muted p-6 bg-secondary/30">
-            <h3 className="text-lg font-bold mb-3 text-muted-foreground">
-              Drinks & pizza consultancy.
-            </h3>
-            <p className="text-muted-foreground mb-4">
-              Your pizza dough is not delivering a puff and a crunch you'd expect it to? Need a wine list for your restaurant? Unhappy with your current cocktail menu? Looking to optimize your bottle selection to maximize ROI and minimize waste? I can help with that too — reach out and let's see what I can do for you.
-            </p>
-            <p className="font-bold text-muted-foreground">Wine education coming soon.</p>
+        <section className="mb-8">
+          <div className="border border-muted p-5 bg-secondary/30 flex flex-col gap-3">
+            <div>
+              <h3 className="text-lg font-bold mb-2 text-muted-foreground">
+                Wine and pizza consultancy.
+              </h3>
+              <p className="text-muted-foreground leading-relaxed">
+                Your pizza dough is not delivering a puff and a crunch you'd expect it to? Looking for new recipes to impress your guests? Need a wine list for your restaurant? Want to start wine by the glass service, but you don't know how? Need to train your staff in wine? Looking to optimize your bottle selection to maximize ROI and minimize waste? I can help with that too — reach out and let's see what I can do for you.
+              </p>
+            </div>
+            
+            <div className="flex items-center justify-start">
+              <a 
+                href="https://eu.credential.net/835a15bc-501e-4220-8c3a-5ca8cbaa35a5" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="group flex items-center gap-4 focus:outline-hidden"
+              >
+                <img 
+                  src={wset3Badge.url} 
+                  alt="WSET Level 3 Wines Certified" 
+                  className="w-32 h-32 md:w-48 md:h-48 object-contain transition-transform duration-300 group-hover:scale-105"
+                />
+                <div>
+                  <span className="text-sm md:text-base font-bold text-muted-foreground group-hover:text-foreground transition-colors block tracking-wide">
+                    WSET LEVEL 3 AWARD IN WINES
+                  </span>
+                  <span className="text-xs font-semibold text-muted-foreground/80 block mt-0.5 tracking-wider">
+                    PASS WITH DISTINCTION
+                  </span>
+                </div>
+              </a>
+            </div>
           </div>
         </section>
 
